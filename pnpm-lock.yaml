@@ -28,7 +28,7 @@ dependencies:
     version: 5.0.0(@types/eslint@8.56.6)(eslint-config-prettier@9.0.0)(eslint@8.57.0)(prettier@3.2.5)
   eslint-plugin-tailwindcss:
     specifier: ^3.10.1
-    version: 3.10.1(tailwindcss@3.4.1)
+    version: 3.10.1(tailwindcss@3.4.2)
   globals:
     specifier: ^15.0.0
     version: 15.0.0
@@ -50,8 +50,8 @@ devDependencies:
     specifier: 3.2.5
     version: 3.2.5
   tailwindcss:
-    specifier: 3.4.1
-    version: 3.4.1
+    specifier: 3.4.2
+    version: 3.4.2
   typescript:
     specifier: 5.4.3
     version: 5.4.3
@@ -787,7 +787,7 @@ packages:
       synckit: 0.8.5
     dev: false
 
-  /eslint-plugin-tailwindcss@3.10.1(tailwindcss@3.4.1):
+  /eslint-plugin-tailwindcss@3.10.1(tailwindcss@3.4.2):
     resolution: {integrity: sha512-NLPZ6b6nd/8CgGNMQ6NDiPUfBLQpSGu/u9RyX3MCZOwzNs2dFt1OamNAiRuo3Ixh7Gv4t5UcAcdNt8z74UDJkA==}
     engines: {node: '>=12.13.0'}
     peerDependencies:
@@ -795,7 +795,7 @@ packages:
     dependencies:
       fast-glob: 3.2.12
       postcss: 8.4.21
-      tailwindcss: 3.4.1
+      tailwindcss: 3.4.2
     dev: false
 
   /eslint-scope@7.2.2:
@@ -1304,8 +1304,8 @@ packages:
   /isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  /jiti@1.20.0:
-    resolution: {integrity: sha512-3TV69ZbrvV6U5DfQimop50jE9Dl6J8O1ja1dvBbMba/sZ3YBEQqJ2VZRoQPVnhlzjNtU1vaXRZVrVjU4qtm8yA==}
+  /jiti@1.21.0:
+    resolution: {integrity: sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==}
     hasBin: true
 
   /js-yaml@4.1.0:
@@ -1792,8 +1792,8 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /tailwindcss@3.4.1:
-    resolution: {integrity: sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==}
+  /tailwindcss@3.4.2:
+    resolution: {integrity: sha512-1kIzVecynNKMhhX8mPTOwTkkVHupUTMbEvk4n1ByxdM8sQTJ8fE41Y4TdORG6GmiVXHhfZ/++0hiIFJFwfadsA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -1805,7 +1805,7 @@ packages:
       fast-glob: 3.3.1
       glob-parent: 6.0.2
       is-glob: 4.0.3
-      jiti: 1.20.0
+      jiti: 1.21.0
       lilconfig: 2.1.0
       micromatch: 4.0.5
       normalize-path: 3.0.0
