@@ -25,7 +25,7 @@ dependencies:
     version: 2.27.5(@typescript-eslint/parser@7.0.1)(eslint-import-resolver-typescript@3.5.3)(eslint@8.57.0)
   eslint-plugin-prettier:
     specifier: ^5.0.0
-    version: 5.0.0(@types/eslint@8.56.6)(eslint-config-prettier@9.0.0)(eslint@8.57.0)(prettier@3.2.5)
+    version: 5.0.0(@types/eslint@8.56.7)(eslint-config-prettier@9.0.0)(eslint@8.57.0)(prettier@3.2.5)
   eslint-plugin-tailwindcss:
     specifier: ^3.10.1
     version: 3.10.1(tailwindcss@3.4.3)
@@ -35,8 +35,8 @@ dependencies:
 
 devDependencies:
   '@types/eslint':
-    specifier: 8.56.6
-    version: 8.56.6
+    specifier: 8.56.7
+    version: 8.56.7
   '@types/node':
     specifier: 20.12.2
     version: 20.12.2
@@ -179,8 +179,8 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@types/eslint@8.56.6:
-    resolution: {integrity: sha512-ymwc+qb1XkjT/gfoQwxIeHZ6ixH23A+tCT2ADSA/DPVKzAjwYkTXBMCQ/f6fe4wEa85Lhp26VPeUxI7wMhAi7A==}
+  /@types/eslint@8.56.7:
+    resolution: {integrity: sha512-SjDvI/x3zsZnOkYZ3lCt9lOZWZLB2jIlNKz+LBgCtDurK0JZcwucxYHn1w2BJkD34dgX9Tjnak0txtq4WTggEA==}
     dependencies:
       '@types/estree': 1.0.0
       '@types/json-schema': 7.0.15
@@ -765,7 +765,7 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-prettier@5.0.0(@types/eslint@8.56.6)(eslint-config-prettier@9.0.0)(eslint@8.57.0)(prettier@3.2.5):
+  /eslint-plugin-prettier@5.0.0(@types/eslint@8.56.7)(eslint-config-prettier@9.0.0)(eslint@8.57.0)(prettier@3.2.5):
     resolution: {integrity: sha512-AgaZCVuYDXHUGxj/ZGu1u8H8CYgDY3iG6w5kUFw4AzMVXzB7VvbKgYR4nATIN+OvUrghMbiDLeimVjVY5ilq3w==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -779,7 +779,7 @@ packages:
       eslint-config-prettier:
         optional: true
     dependencies:
-      '@types/eslint': 8.56.6
+      '@types/eslint': 8.56.7
       eslint: 8.57.0
       eslint-config-prettier: 9.0.0(eslint@8.57.0)
       prettier: 3.2.5
