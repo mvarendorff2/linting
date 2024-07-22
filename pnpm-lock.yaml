@@ -28,7 +28,7 @@ importers:
         version: 2.27.5(@typescript-eslint/parser@7.0.1(eslint@9.7.0)(typescript@5.5.3))(eslint-import-resolver-typescript@3.5.3)(eslint@9.7.0)
       eslint-plugin-prettier:
         specifier: ^5.0.0
-        version: 5.0.0(@types/eslint@8.56.10)(eslint-config-prettier@9.0.0(eslint@9.7.0))(eslint@9.7.0)(prettier@3.3.3)
+        version: 5.0.0(@types/eslint@9.6.0)(eslint-config-prettier@9.0.0(eslint@9.7.0))(eslint@9.7.0)(prettier@3.3.3)
       eslint-plugin-tailwindcss:
         specifier: ^3.10.1
         version: 3.10.1(tailwindcss@3.4.6)
@@ -37,8 +37,8 @@ importers:
         version: 15.0.0
     devDependencies:
       '@types/eslint':
-        specifier: 8.56.10
-        version: 8.56.10
+        specifier: 9.6.0
+        version: 9.6.0
       '@types/node':
         specifier: 20.14.11
         version: 20.14.11
@@ -147,8 +147,8 @@ packages:
     resolution: {integrity: sha512-wfzX8kc1PMyUILA+1Z/EqoE4UCXGy0iRGMhPwdfae1+f0OXlLqCk+By+aMzgJBzR9AzS4CDizioG6Ss1gvAFJw==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
 
-  '@types/eslint@8.56.10':
-    resolution: {integrity: sha512-Shavhk87gCtY2fhXDctcfS3e6FdxWkCx1iUZ9eEUbh7rTqlZT0/IzOkCOVt0fCjcFuZ9FPYfuezTBImfHCDBGQ==}
+  '@types/eslint@9.6.0':
+    resolution: {integrity: sha512-gi6WQJ7cHRgZxtkQEoyHMppPjq9Kxo5Tjn2prSKDSmZrCz8TZ3jSRCeTJm+WoM+oB0WG37bRqLzaaU3q7JypGg==}
 
   '@types/estree@1.0.0':
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
@@ -1271,7 +1271,7 @@ snapshots:
       tiny-glob: 0.2.9
       tslib: 2.5.0
 
-  '@types/eslint@8.56.10':
+  '@types/eslint@9.6.0':
     dependencies:
       '@types/estree': 1.0.0
       '@types/json-schema': 7.0.15
@@ -1645,14 +1645,14 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-prettier@5.0.0(@types/eslint@8.56.10)(eslint-config-prettier@9.0.0(eslint@9.7.0))(eslint@9.7.0)(prettier@3.3.3):
+  eslint-plugin-prettier@5.0.0(@types/eslint@9.6.0)(eslint-config-prettier@9.0.0(eslint@9.7.0))(eslint@9.7.0)(prettier@3.3.3):
     dependencies:
       eslint: 9.7.0
       prettier: 3.3.3
       prettier-linter-helpers: 1.0.0
       synckit: 0.8.5
     optionalDependencies:
-      '@types/eslint': 8.56.10
+      '@types/eslint': 9.6.0
       eslint-config-prettier: 9.0.0(eslint@9.7.0)
 
   eslint-plugin-tailwindcss@3.10.1(tailwindcss@3.4.6):
