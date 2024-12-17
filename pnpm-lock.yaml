@@ -31,7 +31,7 @@ importers:
         version: 5.0.0(@types/eslint@9.6.1)(eslint-config-prettier@9.0.0(eslint@9.17.0(jiti@1.21.6)))(eslint@9.17.0(jiti@1.21.6))(prettier@3.4.2)
       eslint-plugin-tailwindcss:
         specifier: ^3.10.1
-        version: 3.10.1(tailwindcss@3.4.16)
+        version: 3.10.1(tailwindcss@3.4.17)
       globals:
         specifier: ^15.0.0
         version: 15.0.0
@@ -52,8 +52,8 @@ importers:
         specifier: 3.4.2
         version: 3.4.2
       tailwindcss:
-        specifier: 3.4.16
-        version: 3.4.16
+        specifier: 3.4.17
+        version: 3.4.17
       typescript:
         specifier: 5.7.2
         version: 5.7.2
@@ -1182,8 +1182,8 @@ packages:
     resolution: {integrity: sha512-L1dapNV6vu2s/4Sputv8xGsCdAVlb5nRDMFU/E27D44l5U6cw1g0dGd45uLc+OXjNMmF4ntiMdCimzcjFKQI8Q==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  tailwindcss@3.4.16:
-    resolution: {integrity: sha512-TI4Cyx7gDiZ6r44ewaJmt0o6BrMCT5aK5e0rmJ/G9Xq3w7CX/5VXl/zIPEJZFUK5VEqwByyhqNPycPlvcK4ZNw==}
+  tailwindcss@3.4.17:
+    resolution: {integrity: sha512-w33E2aCvSDP0tW9RZuNXadXlkHXqFzSkQew/aIa2i/Sj8fThxwovwlXHSPXTbAHwEIhBFXAedUhP2tueAKP8Og==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -1782,11 +1782,11 @@ snapshots:
       '@types/eslint': 9.6.1
       eslint-config-prettier: 9.0.0(eslint@9.17.0(jiti@1.21.6))
 
-  eslint-plugin-tailwindcss@3.10.1(tailwindcss@3.4.16):
+  eslint-plugin-tailwindcss@3.10.1(tailwindcss@3.4.17):
     dependencies:
       fast-glob: 3.2.12
       postcss: 8.4.21
-      tailwindcss: 3.4.16
+      tailwindcss: 3.4.17
 
   eslint-scope@8.2.0:
     dependencies:
@@ -1918,7 +1918,7 @@ snapshots:
 
   foreground-child@3.3.0:
     dependencies:
-      cross-spawn: 7.0.5
+      cross-spawn: 7.0.6
       signal-exit: 4.1.0
 
   fsevents@2.3.2:
@@ -2456,7 +2456,7 @@ snapshots:
       '@pkgr/utils': 2.3.1
       tslib: 2.5.0
 
-  tailwindcss@3.4.16:
+  tailwindcss@3.4.17:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
