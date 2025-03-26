@@ -22,7 +22,7 @@
     "@types/prettier": "3.0.0",
     "eslint": "9.23.0",
     "prettier": "3.5.3",
-    "tailwindcss": "4.0.16",
+    "tailwindcss": "4.0.17",
     "typescript": "5.8.2"
   },
   "dependencies": {
@@ -40,5 +40,5 @@
     "eslint": "^8.35.0 || ^9.0.0",
     "prettier": "^2.8.4 || ^3.0.0"
   },
-  "packageManager": "pnpm@10.6.5"
+  "packageManager": "pnpm@10.7.0"
 }
