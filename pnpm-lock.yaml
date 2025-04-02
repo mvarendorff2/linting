@@ -31,7 +31,7 @@ importers:
         version: 5.0.0(@types/eslint@9.6.1)(eslint-config-prettier@10.0.1(eslint@9.23.0(jiti@1.21.6)))(eslint@9.23.0(jiti@1.21.6))(prettier@3.5.3)
       eslint-plugin-tailwindcss:
         specifier: ^3.10.1
-        version: 3.10.1(tailwindcss@4.1.0)
+        version: 3.10.1(tailwindcss@4.1.1)
       globals:
         specifier: ^16.0.0
         version: 16.0.0
@@ -52,8 +52,8 @@ importers:
         specifier: 3.5.3
         version: 3.5.3
       tailwindcss:
-        specifier: 4.1.0
-        version: 4.1.0
+        specifier: 4.1.1
+        version: 4.1.1
       typescript:
         specifier: 5.8.2
         version: 5.8.2
@@ -1034,8 +1034,8 @@ packages:
     resolution: {integrity: sha512-L1dapNV6vu2s/4Sputv8xGsCdAVlb5nRDMFU/E27D44l5U6cw1g0dGd45uLc+OXjNMmF4ntiMdCimzcjFKQI8Q==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  tailwindcss@4.1.0:
-    resolution: {integrity: sha512-vBYstoFnvUZCDxaauNGQQEvJNQgCd1vSMDRYuZZMH1xRRcTboOk1rJrW5yFkEabU9X6Yx1C4LQ+QvPOvQj4Daw==}
+  tailwindcss@4.1.1:
+    resolution: {integrity: sha512-QNbdmeS979Efzim2g/bEvfuh+fTcIdp1y7gA+sb6OYSW74rt7Cr7M78AKdf6HqWT3d5AiTb7SwTT3sLQxr4/qw==}
 
   tiny-glob@0.2.9:
     resolution: {integrity: sha512-g/55ssRPUjShh+xkfx9UPDXqhckHEsHr4Vd9zX55oSdGZc/MD0m3sferOkwWtp98bv+kcVfEHtRJgBVJzelrzg==}
@@ -1589,11 +1589,11 @@ snapshots:
       '@types/eslint': 9.6.1
       eslint-config-prettier: 10.0.1(eslint@9.23.0(jiti@1.21.6))
 
-  eslint-plugin-tailwindcss@3.10.1(tailwindcss@4.1.0):
+  eslint-plugin-tailwindcss@3.10.1(tailwindcss@4.1.1):
     dependencies:
       fast-glob: 3.2.12
       postcss: 8.4.21
-      tailwindcss: 4.1.0
+      tailwindcss: 4.1.1
 
   eslint-scope@8.3.0:
     dependencies:
@@ -2136,7 +2136,7 @@ snapshots:
       '@pkgr/utils': 2.3.1
       tslib: 2.5.0
 
-  tailwindcss@4.1.0: {}
+  tailwindcss@4.1.1: {}
 
   tiny-glob@0.2.9:
     dependencies:
