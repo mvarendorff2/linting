@@ -18,11 +18,11 @@
   "license": "MIT",
   "devDependencies": {
     "@types/eslint": "9.6.1",
-    "@types/node": "22.15.23",
+    "@types/node": "22.15.24",
     "@types/prettier": "3.0.0",
     "eslint": "9.27.0",
     "prettier": "3.5.3",
-    "tailwindcss": "4.1.7",
+    "tailwindcss": "4.1.8",
     "typescript": "5.8.3"
   },
   "dependencies": {
