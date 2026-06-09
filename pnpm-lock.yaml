@@ -28,7 +28,7 @@ importers:
         version: 2.27.5(@typescript-eslint/parser@8.0.0(eslint@10.4.1)(typescript@6.0.3))(eslint-import-resolver-typescript@4.0.0)(eslint@10.4.1)
       eslint-plugin-prettier:
         specifier: ^5.0.0
-        version: 5.0.0(@types/eslint@9.6.1)(eslint-config-prettier@10.0.1(eslint@10.4.1))(eslint@10.4.1)(prettier@3.8.3)
+        version: 5.0.0(@types/eslint@9.6.1)(eslint-config-prettier@10.0.1(eslint@10.4.1))(eslint@10.4.1)(prettier@3.8.4)
       eslint-plugin-tailwindcss:
         specifier: ^3.10.1
         version: 3.10.1(tailwindcss@4.3.0)
@@ -49,8 +49,8 @@ importers:
         specifier: 10.4.1
         version: 10.4.1
       prettier:
-        specifier: 3.8.3
-        version: 3.8.3
+        specifier: 3.8.4
+        version: 3.8.4
       tailwindcss:
         specifier: 4.3.0
         version: 4.3.0
@@ -900,6 +900,11 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
+  prettier@3.8.4:
+    resolution: {integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==}
+    engines: {node: '>=14'}
+    hasBin: true
+
   punycode@2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
     engines: {node: '>=6'}
@@ -1505,10 +1510,10 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-prettier@5.0.0(@types/eslint@9.6.1)(eslint-config-prettier@10.0.1(eslint@10.4.1))(eslint@10.4.1)(prettier@3.8.3):
+  eslint-plugin-prettier@5.0.0(@types/eslint@9.6.1)(eslint-config-prettier@10.0.1(eslint@10.4.1))(eslint@10.4.1)(prettier@3.8.4):
     dependencies:
       eslint: 10.4.1
-      prettier: 3.8.3
+      prettier: 3.8.4
       prettier-linter-helpers: 1.0.0
       synckit: 0.8.5
     optionalDependencies:
@@ -1937,6 +1942,8 @@ snapshots:
       fast-diff: 1.2.0
 
   prettier@3.8.3: {}
+
+  prettier@3.8.4: {}
 
   punycode@2.3.0: {}
 
