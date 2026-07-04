@@ -28,10 +28,10 @@ importers:
         version: 2.27.5(@typescript-eslint/parser@8.0.0(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(eslint-import-resolver-typescript@4.0.0)(eslint@10.6.0(jiti@2.7.0))
       eslint-plugin-prettier:
         specifier: ^5.0.0
-        version: 5.0.0(@types/eslint@9.6.1)(eslint-config-prettier@10.0.1(eslint@10.6.0(jiti@2.7.0)))(eslint@10.6.0(jiti@2.7.0))(prettier@3.9.3)
+        version: 5.0.0(@types/eslint@9.6.1)(eslint-config-prettier@10.0.1(eslint@10.6.0(jiti@2.7.0)))(eslint@10.6.0(jiti@2.7.0))(prettier@3.9.4)
       eslint-plugin-tailwindcss:
         specifier: ^4.0.0
-        version: 4.0.2(eslint@10.6.0(jiti@2.7.0))(tailwindcss@4.3.1)(typescript@6.0.3)
+        version: 4.0.2(eslint@10.6.0(jiti@2.7.0))(tailwindcss@4.3.2)(typescript@6.0.3)
       globals:
         specifier: ^17.0.0
         version: 17.0.0
@@ -49,11 +49,11 @@ importers:
         specifier: 10.6.0
         version: 10.6.0(jiti@2.7.0)
       prettier:
-        specifier: 3.9.3
-        version: 3.9.3
+        specifier: 3.9.4
+        version: 3.9.4
       tailwindcss:
-        specifier: 4.3.1
-        version: 4.3.1
+        specifier: 4.3.2
+        version: 4.3.2
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -1015,13 +1015,8 @@ packages:
     resolution: {integrity: sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==}
     engines: {node: '>=6.0.0'}
 
-  prettier@3.9.1:
-    resolution: {integrity: sha512-ppiDo2CSwexck1eyZUwJHg/N3nf1+6IRCv7W/VJ5vaLnVCmB7+3CdRfMwoCHBBX6xTrREDTksZ4OZl5SSf4zXA==}
-    engines: {node: '>=14'}
-    hasBin: true
-
-  prettier@3.9.3:
-    resolution: {integrity: sha512-HWmu+K+zvHNpaMfSnYeqdqrDbR16cuIXaPx8WoHaviQkDJh1/0BNtOZmHVQI5jc3wXv0H1yXc9wjvFdXh+n3hQ==}
+  prettier@3.9.4:
+    resolution: {integrity: sha512-yWG/o/4oJfo036EKAfK6ACAoDOfHeRHx4tuxkfBZiauURiaSmYwlpOr5LQqKtIkRD2z1PLteme2WoxEnj4tHTg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1127,8 +1122,8 @@ packages:
     peerDependencies:
       tailwindcss: ^3.3.0 || ^4.0.0 || ^4.0.0-beta
 
-  tailwindcss@4.3.1:
-    resolution: {integrity: sha512-hk+TB1m+K8CYNrP6rjQaq/Y+4Zylwpa87mLYBKCunwnnQ9p+fHb7kmSfGqyEJoxF/O6CDyABWVFEafNSYKll+Q==}
+  tailwindcss@4.3.2:
+    resolution: {integrity: sha512-WtctNNSH8A9jlMIqxzuYumOHU5uGZyRv0Q5svQl+oEPy5w84YpBxdb7MdqyiSPQge5jTJ6zFQLq0PFygdccSBA==}
 
   tapable@2.3.3:
     resolution: {integrity: sha512-uxc/zpqFg6x7C8vOE7lh6Lbda8eEL9zmVm/PLeTPBRhh1xCgdWaQ+J1CUieGpIfm2HdtsUpRv+HshiasBMcc6A==}
@@ -1338,7 +1333,7 @@ snapshots:
 
   '@types/prettier@3.0.0':
     dependencies:
-      prettier: 3.9.1
+      prettier: 3.9.4
 
   '@typescript-eslint/eslint-plugin@8.0.0(@typescript-eslint/parser@8.0.0(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)':
     dependencies:
@@ -1740,24 +1735,24 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-plugin-prettier@5.0.0(@types/eslint@9.6.1)(eslint-config-prettier@10.0.1(eslint@10.6.0(jiti@2.7.0)))(eslint@10.6.0(jiti@2.7.0))(prettier@3.9.3):
+  eslint-plugin-prettier@5.0.0(@types/eslint@9.6.1)(eslint-config-prettier@10.0.1(eslint@10.6.0(jiti@2.7.0)))(eslint@10.6.0(jiti@2.7.0))(prettier@3.9.4):
     dependencies:
       eslint: 10.6.0(jiti@2.7.0)
-      prettier: 3.9.3
+      prettier: 3.9.4
       prettier-linter-helpers: 1.0.0
       synckit: 0.8.5
     optionalDependencies:
       '@types/eslint': 9.6.1
       eslint-config-prettier: 10.0.1(eslint@10.6.0(jiti@2.7.0))
 
-  eslint-plugin-tailwindcss@4.0.2(eslint@10.6.0(jiti@2.7.0))(tailwindcss@4.3.1)(typescript@6.0.3):
+  eslint-plugin-tailwindcss@4.0.2(eslint@10.6.0(jiti@2.7.0))(tailwindcss@4.3.2)(typescript@6.0.3):
     dependencies:
       '@typescript-eslint/utils': 8.61.1(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)
       postcss: 8.4.21
       postcss-nested: 7.0.2(postcss@8.4.21)
       synckit: 0.11.13
-      tailwind-api-utils: 1.0.3(tailwindcss@4.3.1)
-      tailwindcss: 4.3.1
+      tailwind-api-utils: 1.0.3(tailwindcss@4.3.2)
+      tailwindcss: 4.3.2
     optionalDependencies:
       typescript: 6.0.3
     transitivePeerDependencies:
@@ -2222,9 +2217,7 @@ snapshots:
     dependencies:
       fast-diff: 1.2.0
 
-  prettier@3.9.1: {}
-
-  prettier@3.9.3: {}
+  prettier@3.9.4: {}
 
   punycode@2.3.0: {}
 
@@ -2327,14 +2320,14 @@ snapshots:
       '@pkgr/utils': 2.3.1
       tslib: 2.5.0
 
-  tailwind-api-utils@1.0.3(tailwindcss@4.3.1):
+  tailwind-api-utils@1.0.3(tailwindcss@4.3.2):
     dependencies:
       enhanced-resolve: 5.24.0
       jiti: 2.7.0
       local-pkg: 1.2.1
-      tailwindcss: 4.3.1
+      tailwindcss: 4.3.2
 
-  tailwindcss@4.3.1: {}
+  tailwindcss@4.3.2: {}
 
   tapable@2.3.3: {}
 
