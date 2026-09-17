@@ -21,7 +21,7 @@
     "@types/node": "24.13.5",
     "@types/prettier": "3.0.0",
     "eslint": "10.10.0",
-    "prettier": "3.9.7",
+    "prettier": "3.9.8",
     "tailwindcss": "4.3.3",
     "typescript": "7.0.2"
   },
